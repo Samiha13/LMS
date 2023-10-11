@@ -1,0 +1,417 @@
+/* Medium Layout: 1280px. 
+
+Checking Size: 1000px
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+    
+    /* Home Page */
+    .search {
+        width: 275px;
+    }
+
+    .single-service, .single-service2,.single-service3,.single-service4{
+        flex-basis: 235px;
+    }
+    .poster-img {
+        flex-basis: 360px;
+    }
+    .poster-info {
+        flex-basis: 410px;
+    }
+    .single-price {
+
+        flex-basis: 325px;
+        margin-left: 110px;
+    }
+
+    .search input[type=search] {
+        width: 185px; 
+    }
+
+
+    /* Course Page */
+    .single-info {
+        margin-left: 10px;
+    }
+
+    .single-course {
+        flex-basis: 450px;
+        margin:20px 10px 15px 15px;
+    }
+     
+     /* Blog Page */
+    .single-event {
+        margin-left: 100px;
+    }
+
+
+    /* Registration Page */
+    .button-panel .button {
+        font-size: 16px;
+    }
+
+    .form-wrapper,.register{
+       
+        margin: 85px auto;
+    }
+     
+
+     /* Footer */
+    .form-footer a {
+        
+        font-size: 16px;
+       
+    }
+
+
+      /* Contact Page */
+    .contact {
+        width: 92%;
+        justify-content: space-between;
+    }
+
+    .contact-form {
+        margin-right: 30px;
+        flex-basis: 90%;
+    }
+    .content h2 {
+        margin-left: -250px;
+    }
+}
+
+
+/* Tablet Layout: 768px. 
+
+Checking Size: 800px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+
+     /* Home Page */
+    .logo a {
+        font-size: 28px;
+        margin-right: 20px;
+    }
+    .menu ul {
+        
+        padding-top: 5px;
+    }
+    
+    .menu ul li a {
+            font-size: 16px;
+           padding: 7px 8px;
+            margin-left: -12px;
+            
+          
+        }
+
+    .menu ul li ul li a {
+            font-size: 16px;
+           
+        }
+
+    .search {
+            width: 250px;
+        }
+
+    .search input[type="search"] {
+           
+            padding: 9px;
+            font-size: 16px;
+            width: 180px;
+         
+        }
+
+    .fa.fa-search {
+           
+            height: 39px;
+            line-height: 39px;
+        }
+
+    .section-title,.service-title {
+            font-size: 34px;
+          
+        }
+        
+    .single-category {
+            flex-basis: 290px;
+          
+        }
+
+    .single-service, .single-service2, .single-service3, .single-service4 {
+            flex-basis: 330px;
+            padding: 20px;
+            margin: 15px 30px 15px 15px;
+        }
+    .poster-img {
+            flex-basis: 250px;
+        }
+    .poster-info {
+            flex-basis: 300px;
+        }
+    .poster-info h4 {
+            font-size: 30px;
+        
+        }
+    .poster-info p {
+            font-size: 14px;
+            margin-left: 55px;
+           
+        }
+
+    .poster-info a {
+            margin-left: 53px;
+            padding: 5px;
+           
+        }
+
+    .single-price {
+            flex-basis: 345px;
+            margin-left: 20px;
+        } 
+
+    .single-price a {
+          
+            padding: 8px;
+        }
+
+    .single-info {
+            width: 250px;
+        }
+     
+     /* Blog Page */
+    .single-event {
+          
+            margin: 10px 45px;
+        }
+    
+    /* Registration Page */
+    .form-wrapper {
+            flex-basis: 390px;
+          
+        }
+
+    .button-panel .button {
+        
+            font-size: 16px;
+            
+        }
+
+    .form-wrapper,.register {
+           
+            margin: 85px auto;
+            
+        }
+
+     /* Footer  */
+    .form-footer a {
+           
+            font-size: 14px;
+        }
+
+     /* Contact Page */
+    .content {
+            width: 486px;
+        }
+
+    .contact {
+            width: 90%;
+        }
+    .contact-form {
+           
+            flex-basis: 70%;
+        }
+       
+}
+
+/* Mobile Layout: 350px
+
+Checking Size: 400px
+*/
+@media only screen and (max-width: 767px) {
+
+    .container{
+        width: 350px;
+    }
+    
+     /* Home Page */
+    .header-area {
+        margin: 0 20px;
+    }
+
+    .header {
+        margin: 40px 7px;
+      
+    }
+
+   
+    .logo a {
+        font-size: 28px;
+       
+    }
+    .menu ul li {
+        margin: 0 -6px 10px;
+        
+    }
+   
+    .menu ul li a {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .menu ul li ul li a {
+        font-size: 15px;
+       
+    }
+
+    .search {
+        
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-top: 40px;
+        
+    }
+
+    .search input[type="search"] {
+       
+        padding: 8px;
+        font-size: 14px;
+        width: 125px;
+    } 
+
+    .fa.fa-search {
+        margin-left: -35px;
+        height: 35px;
+        text-align: center;
+        line-height: 35px;
+        width: 35px;
+    }
+
+    .section-title , .service-title{
+        font-size: 24px;
+    
+    }
+    .category-title {
+        font-size: 16px;
+      
+    }
+    .single-category {
+      
+        padding: 20px 25px;
+    }
+        
+    .single-category i {
+       
+        font-size: 20px;
+    }
+
+    .single-service, .single-service2, .single-service3, .single-service4 {
+        flex-basis: 330px;
+        margin: 50px 10px 8px;
+      
+    }
+    .poster-img {
+        flex-basis: 250px;
+    }
+
+    .poster-info {
+        margin-top: 30px;
+    }
+
+    .poster-info h6 {
+        font-size: 16px;
+    }
+
+    .poster-info h4 {
+        font-size: 20px;
+        width: 100%;
+        margin-left: -13px;
+    }
+
+    .poster-info p {
+        width: 190px;
+        margin-left: -5px;
+    }
+
+    .poster-info a {
+      
+        margin-left: -6px;
+        
+    }
+
+    .single-price {
+       margin-left: 0;
+    }
+
+    .contactmsg-form {
+       
+        margin-top: 35px;
+    }
+     
+     /* Blog Page */
+    .single-event {
+        flex-basis: 450px;
+         margin-left: 0px;
+     
+    }
+
+    .single-event span {
+        font-size: 11px;
+        margin-bottom: 15px;
+    }
+
+    .single-event a {
+      
+        font-size: 18px;
+     
+    }
+     
+     /* Registration Page */
+    .form-wrapper,.register {
+        margin: 180px auto;
+    }
+
+    .form-footer a {
+        font-size: 14px;
+      
+    }
+
+    .button-panel .button {
+       
+        font-size: 14px;
+       
+    }
+     
+     /* Contact Page */
+    .contact {
+       
+        flex-flow: wrap;
+    }
+
+    .contact-info {
+        width: 100%;
+
+    }
+
+    .content {
+        text-align: center;
+        margin: 205px 0 25px;
+        margin-left: -119px;
+    }
+
+    .contact-form {
+        padding: 20px;
+        background: #fff;
+        margin-left: -145px;
+        flex-basis: 100%;
+        
+    }
+}
