@@ -79,7 +79,7 @@ Checking Size: 1000px
         flex-basis: 90%;
     }
     .content h2 {
-        margin-left: -250px;
+        font-size: 32px;
     }
 }
 
@@ -218,11 +218,16 @@ Checking Size: 800px
 
      /* Contact Page */
     .content {
-            width: 486px;
+            width: 615px;
         }
 
     .contact {
             width: 90%;
+        }
+        .content h2 {
+          
+            font-size: 30px;
+           
         }
     .contact-form {
            
@@ -399,6 +404,11 @@ Checking Size: 400px
     .contact-info {
         width: 100%;
 
+    }
+    .content h2 {
+          
+        font-size: 26px;
+       
     }
 
     .content {
