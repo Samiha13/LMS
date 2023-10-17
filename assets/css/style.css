@@ -916,7 +916,6 @@ h4 {
 
 .contact-area{
     position: relative;
-    padding: 120px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1008,7 +1007,7 @@ h4 {
 
 .contact-form {
     width: 40%;
-    padding: 40px;
+    padding: 20px;
     background: #fff;
 }
 

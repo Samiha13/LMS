@@ -404,13 +404,12 @@ Checking Size: 400px
     .content {
         text-align: center;
         margin: 205px 0 25px;
-        margin-left: -119px;
+       
     }
 
     .contact-form {
         padding: 20px;
         background: #fff;
-        margin-left: -145px;
         flex-basis: 100%;
         
     }
